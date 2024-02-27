@@ -1,0 +1,97 @@
+/* Mengatur style dalam class body */
+body {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%; 
+  line-height: 1.6; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("makan.jpg");
+  background-size: cover; 
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Mengatur style dalam class h1 */
+header h1 {
+  color: rgb(157, 0, 0); 
+  padding: 50px; 
+  margin-left: 600px; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+/* Mengatur style dalam class menu */
+.menu {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  cursor: pointer; 
+  margin-right: 80px; 
+  margin-left: 600px; 
+  margin-top: -15px; 
+}
+/* Mengatur style dalam class menu li */
+.menu li {
+  list-style: none;
+  display: inline-block; 
+}
+/* Mengatur style dalam class menu li a*/
+.menu li a {
+  text-decoration: none; 
+  color: white; 
+  font-size: 27px;
+  font-weight: 600; 
+  margin-left: 25px; 
+  transition: 0.4s ease; 
+}
+/* Mengatur style dalam class menu li a hover*/
+.menu li a:hover {
+  color: gray; 
+  padding: 5px 10px; 
+  border: 2px solid white; 
+}
+/* Mengatur style dalam class home */
+.home {
+  height: 400px; 
+  padding: 70px; 
+}
+/* Mengatur style dalam class title-1 */
+.title-1 {
+  font-size: 56px; 
+  color: white; 
+  font-weight: 600; 
+}
+/* Mengatur style dalam class home h2 */
+.home h2 {
+  color: rgb(157, 0, 0);
+  font-size: 22px; 
+  padding: 10px; 
+}
+/* Mengatur style dalam class home button */
+.home button {
+  height: 40px; 
+  color: black; 
+  padding: 5px 30px; 
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px; 
+  transition: 0.4s ease; 
+  cursor: pointer; 
+}
+/*Mengatur style dalam class home button hover*/
+.home button:hover {
+  background: none; 
+  border: 2px solid gray(255, 0, 0); 
+}
+/* SfortylMengatur style dalam class Shop Now button */
+.shop-now-button {
+  display: inline-block;
+  padding: 10px 20px ; 
+  background-color: black; 
+  color: white; 
+  text-decoration: none; 
+  border-radius: 5px; /* Border radius */
+  transition: background-color 0.3s ease; 
+}
+
+
